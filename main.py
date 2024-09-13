@@ -1,7 +1,7 @@
 from curso import Curso
 from estudiante import Estudiante
 
-estudiante= Estudiante()
+estudiante = Estudiante(30, "Carlos", 20)
 curso_uno = Curso(2210, "Programacion Avanzada", "Eder Rivera Cisneros")
 curso_dos = Curso(2212, "Dinamica", "José Nicolas Ponciano")
 curso_tres = Curso(2294,  "Calculo Integral", "Alejandro Aburto Bedolla")

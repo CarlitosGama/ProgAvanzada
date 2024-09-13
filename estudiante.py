@@ -3,7 +3,6 @@ class Estudiante:
     id_estudiante = 0
     nombre = ""
     edad = 0
-
     cursos = []
     
     #constructor dela clase estudiante
@@ -17,13 +16,13 @@ class Estudiante:
         self.cursos.append(curso)
 
     #Mostrar informacion
-    def mostrar_informacion(self, estudiante):
+    def mostrar_informacion(self):
         print("\n----- Informacion del Estudiante ------\n")
 
         print("\n")
-        print(estudiante.id_estudiante)
-        print(estudiante.nombre)
-        print(estudiante.edad) 
+        print(self.id_estudiante)
+        print(self.nombre)
+        print(self.edad) 
 
         if  len(self.cursos) == 0:
             print("No existen productos en el sistema")
