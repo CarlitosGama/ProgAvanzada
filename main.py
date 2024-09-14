@@ -1,22 +1,21 @@
 from curso import Curso
 from estudiante import Estudiante
 
-estudiante = Estudiante(30, "Carlos", 20)
 curso_uno = Curso(2210, "Programacion Avanzada", "Eder Rivera Cisneros")
-curso_dos = Curso(2212, "Dinamica", "José Nicolas Ponciano")
+curso_dos = Curso(2212, "Dinamica", "Jose Nicolas Ponciano")
 curso_tres = Curso(2294,  "Calculo Integral", "Alejandro Aburto Bedolla")
 estudiante_uno = Estudiante(10, "Tito",  21)
 estudiante_dos = Estudiante(30, "Carlos", 20)  
 
-estudiante.agregar_curso(curso_uno)
-estudiante.agregar_curso(curso_dos)
+estudiante_uno.agregar_curso(curso_uno)
+estudiante_uno.agregar_curso(curso_dos)
 
-estudiante.mostrar_informacion()
+estudiante_uno.mostrar_informacion_uno()
 
-print("******************")
+print("\n***************************")
 
 
-estudiante.agregar_curso(curso_dos)
-estudiante.agregar_curso(curso_tres)
+estudiante_dos.agregar_curso_2(curso_dos)
+estudiante_dos.agregar_curso_2(curso_tres)
 
-estudiante.mostrar_informacion()
+estudiante_dos.mostrar_informacion_dos()

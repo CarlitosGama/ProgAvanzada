@@ -8,8 +8,8 @@ class Curso:
         self.nombre_curso = nombre_curso
         self.instructor = instructor
 
-    def mostrar_info_curso(self, curso):
+    def mostrar_info_curso(self):
     
-        print("\n", curso.codigo_curso)
-        print("\n", curso.nombre_curso)
-        print("\n", curso.instrucctor)
+        print("\n", self.codigo_curso)
+        print("\n", self.nombre_curso)
+        print("\n", self.instructor)
