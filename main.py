@@ -23,14 +23,18 @@ while True:
         print("Seleccionaste la opcion para registrar un paciente")
         
         nombre = input("Ingrese el nombre: ")
-        ano_nacimiento = int(input("Ingrese el ano de nacimiento"))
+        ano_nacimiento = int(input("Ingrese el ano de nacimiento: "))
         peso = float(input("Ingrese el peso: "))
         estatura = float(input("Ingrese el estatura: "))
         direccion = input("Ingrese el direccion: ")
 
     elif  opcion_usuario == "2":
-        #registrar medico
-        pass
+        print("Seleccionaste la opcion para registrar un medico")
+        
+        nombre = input("Ingrese el nombre: ")
+        ano_nacimiento = int(input("Ingrese el ano de nacimiento: "))
+        rfc = input("Ingrese el rfc del medico: ")
+        direccion = input("Ingrese el direccion: ")
 
     elif opcion_usuario == "3":
         hospital.mostrar_pacientes() 
