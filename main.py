@@ -39,20 +39,16 @@ while True:
       hospital.mostrar_medicos()    
 
     elif opcion_usuario == "5":
-      #eliminar paciente
-      pass 
+      hospital.eliminar_paciente()
 
     elif opcion_usuario == "6":
-      #Eliminar medico
-      pass
+       hospital.eliminar_medico()
 
     elif opcion_usuario == "7":
-      #mostrar pacientes menores de edad
-      pass 
+      hospital.mostrar_paciente_menor()
 
     elif opcion_usuario == "8":
-      #mostrar pacientes mayores de edad
-      pass 
+       hospital.mostrar_paciente_mayor()
 
     elif opcion_usuario == "9":
       print("Hasta luego")
