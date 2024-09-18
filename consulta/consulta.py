@@ -16,22 +16,22 @@ class Consulta:
         self.medico = medico
         self.paciente = paciente
 
-    @property
-    def id(self):
-        return self.id
+    #@property
+    #def id(self):
+    ##   return self.id
     
-    @property
-    def fecha_hora(self):
-        return self.fecha_hora
+    #@property
+    #def fecha_hora(self):
+    #    return self.fecha_hora
     
-    @property
-    def consultorio(self):
-        return self.consultorio
+    #@property
+    #def consultorio(self):
+    #    return self.consultorio
     
-    @property
-    def medico(self):
-        return self.medico
+    #@property
+    #def medico(self):
+    #    return self.medico
     
-    @property
-    def paciente(self):
-        return self.paciente
+    #@property
+    #def paciente(self):
+    #    return self.paciente

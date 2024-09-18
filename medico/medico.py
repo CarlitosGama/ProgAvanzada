@@ -13,6 +13,12 @@ class Medico:
         self.ano_nacimiento = ano_nacimiento
         self.rfc = rfc
         self.direccion = direccion
+       
+    def mostrar_informacion(self):
+        print(f"Nombre: {self.nombre}")
+        print(f"Año de nacimiento: {self.ano_nacimiento}")
+        print(f"rfc: {self.rfc}")
+        print(f"Dirección: {self.direccion}")
 
     # @property
     # def id(self):
